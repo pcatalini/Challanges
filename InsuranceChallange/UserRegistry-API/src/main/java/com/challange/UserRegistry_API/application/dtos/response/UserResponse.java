@@ -1,9 +1,9 @@
-package com.challange.UserRegistry_API.controller.response;
+package com.challange.UserRegistry_API.application.dtos.response;
 
 import lombok.Data;
 
 @Data
-public class UserResponseDTO {
+public class UserResponse {
     private String id;
     private String name;
     private String email;

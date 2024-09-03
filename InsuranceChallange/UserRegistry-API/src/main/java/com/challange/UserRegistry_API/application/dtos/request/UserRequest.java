@@ -1,4 +1,4 @@
-package com.challange.UserRegistry_API.controller.request;
+package com.challange.UserRegistry_API.application.dtos.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
@@ -6,7 +6,7 @@ import lombok.Data;
 
 
 @Data
-public class UserRequestDTO {
+public class UserRequest {
 
     @NotNull
     private String name;
