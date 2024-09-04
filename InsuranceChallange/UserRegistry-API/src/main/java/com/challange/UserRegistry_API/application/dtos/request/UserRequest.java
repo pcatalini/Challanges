@@ -12,5 +12,10 @@ public class UserRequest {
     private String name;
     @Email
     private String email;
+    private Integer age;
+    private Double salary;
+    private Boolean isMarried;
+    private Integer numberOfSon;
+
 
 }

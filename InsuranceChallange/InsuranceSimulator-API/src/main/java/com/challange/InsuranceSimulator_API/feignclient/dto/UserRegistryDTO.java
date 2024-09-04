@@ -1,12 +1,10 @@
-package com.challange.UserRegistry_API.infrastructure.addapters.out.persistance.entity;
+package com.challange.InsuranceSimulator_API.feignclient.dto;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 @Data
-public class UserEntity {
+public class UserRegistryDTO {
 
-    @Id
     private String id;
     private String name;
     private String email;
@@ -14,6 +12,4 @@ public class UserEntity {
     private Double salary;
     private Boolean isMarried;
     private Integer numberOfSon;
-
-
 }
